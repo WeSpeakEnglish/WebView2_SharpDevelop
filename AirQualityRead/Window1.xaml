@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="AirQualityRead.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="AirQualityRead" xmlns:Controls0="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+	Height="542"
+	Width="696">
+	<Grid>
+		<Controls0:WebView2
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="5,5,5,5"
+			x:Name="webview" />
+	</Grid>
+</Window>
